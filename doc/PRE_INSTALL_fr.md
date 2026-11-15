@@ -1,1 +1,3 @@
-Ceci est un faux disclaimer à présenter avant l'installation
+- Flowplan a besoin d'un **domaine ou sous-domaine dédié** (par exemple `flowplan.example.com`) ; il ne peut pas être installé dans un sous-chemin.
+- Laissez l'accès sur **Visiteurs**, sauf si Flowplan ne doit être accessible qu'à travers le portail YunoHost : Flowplan a sa propre connexion, et seul l'accès public permet aux applications mobiles et de bureau, aux liens partagés, aux formulaires et aux webhooks de fonctionner. Les personnes connectées au portail YunoHost sont de toute façon connectées automatiquement à Flowplan.
+- Les utilisateurs YunoHost qui ont la permission pour cette application se connectent avec leur nom d'utilisateur et mot de passe YunoHost ; les membres du groupe YunoHost `admins` administrent Flowplan.
