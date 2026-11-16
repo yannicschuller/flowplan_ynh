@@ -59,9 +59,9 @@ ram.runtime = "400M"
     [resources.sources.main]
     # Release archives built from the published Docker image (docker.yml, job "archives").
     amd64.url = "https://github.com/yannicschuller/flowplan/releases/download/v0.9.8/flowplan-0.9.8-linux-amd64.tar.gz"
-    amd64.sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+    amd64.sha256 = "7dda8e481d9b82f5f0d6df6a1a713a56cbaacfd2d0110a64b85d3213a3552322"
     arm64.url = "https://github.com/yannicschuller/flowplan/releases/download/v0.9.8/flowplan-0.9.8-linux-arm64.tar.gz"
-    arm64.sha256 = "0000000000000000000000000000000000000000000000000000000000000000"
+    arm64.sha256 = "b9197edde5aeb82a5349c91d9ce5dddbc86207ac32e67b771dc26eba14c656fe"
     in_subdir = true
 
     autoupdate.strategy = "latest_github_release"
