@@ -50,6 +50,11 @@ ram.runtime = "400M"
     type = "group"
     default = "visitors"
 
+    [install.admin]
+    # Becomes Flowplan admin when signed in through the YunoHost portal
+    # (SSOwat sends no groups); members of "admins" are admins via LDAP too.
+    type = "user"
+
 [resources]
     [resources.sources.main]
     # Release archives built from the published Docker image (docker.yml, job "archives").
